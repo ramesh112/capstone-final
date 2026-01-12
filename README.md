@@ -148,4 +148,14 @@ Key evaluation insights from the notebook:
 ## How to Run
 
 1. **Clone or copy the project**  
-   P
+   Place `capstone_final_banking_fraud_detection.ipynb` and the `data/card_data.csv` file in the same directory (or adjust the path inside the notebook).  
+
+2. **Create and activate a Python environment** (e.g., conda or venv) and install dependencies:
+
+   ```bash
+   pip install numpy pandas matplotlib seaborn scikit-learn
+
+## Future Improvements
+Threshold tuning based on business costs to trade off fraud recall vs. false positives more explicitly.
+Cost‑sensitive evaluation and custom metrics that incorporate the financial impact of missed fraud vs. false alarms.
+Calibration and deployment steps such as probability calibration, monitoring drift, and integrating with real‑time scoring pipelines.
