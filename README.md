@@ -1,5 +1,10 @@
 # ML Pipeline for Credit Card Fraud Detection
 
+This project shows that data and machine learning can help banks spot likely fraudulent credit card transactions before money is lost. By looking at patterns such as how far a purchase is from home, how different its amount is from the customer’s usual spending, whether it was online, and whether the store is familiar, the system learns what “normal” behavior looks like and what looks suspicious.
+​
+
+Because real fraud is rare compared with normal purchases, the work focuses less on overall accuracy and more on catching as many fraud cases as possible without overwhelming analysts and customers with false alarms. The final models, especially the tree‑based ones, are able to separate fraud from normal transactions extremely well on this dataset, suggesting that such patterns are strong and can be used in real decision systems when combined with business rules and human oversight.
+
 This project builds and evaluates a supervised **machine-learning** pipeline for credit card fraud detection on a large synthetic card-transaction dataset of 500,000 rows, with an empirical fraud rate of about 8.75%.
 
 The focus is on modeling highly imbalanced, noisy transaction data and comparing linear and tree-based classifiers using metrics that emphasize fraud recall and ranking quality rather than raw accuracy.
